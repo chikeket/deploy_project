@@ -23,7 +23,7 @@ export default defineConfig({
       "^/api": {
         target: backServer,
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ""),
+        //rewrite: (path) => path.replace(/^\/api/, ""),
       },
     },
   },
